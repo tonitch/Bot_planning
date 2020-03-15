@@ -15,6 +15,8 @@ indiquer le token discord du bot
 
 Editer ./commands/cal.js
 indiquer un seed identique à celui utilié par la page web
+chercher la chaîne "let link"
+éditer le message ainsi que l'url de la page.
 
 Lancer le bot
 node bot.j
