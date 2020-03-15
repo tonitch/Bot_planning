@@ -5,7 +5,7 @@ avec la participation de @moi2985#5522 @Elonchan#5962 @Tonitch#2192 @Dae#5125 @d
 
 utilisation non commercial, copie/modification autorisé., merci de citer vos sources.
 
-#Installation
+# Installation
 Déployer le code 
 se placer dans le répertoire
 npm install
