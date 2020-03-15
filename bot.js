@@ -1,7 +1,8 @@
 const Discord = require("discord.js");
 const bot = new Discord.Client();
 
-//invitation du bot
+//Config
+let tokenDiscord='';
 
 
 //les link au commands
@@ -31,4 +32,4 @@ function sendError(message, description) {
 }
 //commands
 
-bot.login('xxxx');
+bot.login(tokenDiscord);

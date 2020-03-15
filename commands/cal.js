@@ -8,8 +8,11 @@ module.exports = class infoserver extends command {
     return message.content.startsWith('$cal')
   }
   static action (message){
-  
-			/*
+		//Config
+		let seed="";
+		
+		
+		/*
 		 * A JavaScript implementation of the RSA Data Security, Inc. MD5 Message
 		 * Digest Algorithm, as defined in RFC 1321.
 		 * Version 2.2 Copyright (C) Paul Johnston 1999 - 2009
@@ -391,7 +394,7 @@ module.exports = class infoserver extends command {
   
 	function createTokenLink(user) {
 		//création d'un lien vers le formulaire avec la var GET token qui hash le user avec un seed
-		let seed="";
+		
 		var jour = new Date().getDate();
 		let token=user+seed+jour;
 		let hash=hex_md5(token);
