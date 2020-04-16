@@ -395,7 +395,7 @@ module.exports = class infoserver extends command {
 	function createTokenLink(user) {
 		//création d'un lien vers le formulaire avec la var GET token qui hash le user avec un seed
 		
-		var jour = new Date().getDate();
+		var jour = ("0" + (new Date().getDate())).slice(-2);
 		let token=user+seed+jour;
 		let hash=hex_md5(token);
 		let link=user+" utilise le lien suivant : https://urplanning.virtuajdr.net/?token="+hash;
