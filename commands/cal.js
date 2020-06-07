@@ -398,7 +398,7 @@ module.exports = class infoserver extends command {
 		var jour = ("0" + (new Date().getDate())).slice(-2);
 		let token=user+seed+jour;
 		let hash=hex_md5(token);
-		let link=user+" utilise le lien suivant : https://urplanning.virtuajdr.net/?token="+hash;
+		let link=user+" utilise le lien suivant : https://urplanning.unionrolistes.fr/?token="+hash;
 		return link;
 	}
 	//supression du message
