@@ -28,7 +28,7 @@ module.exports = class help extends command {
 
 		//message perso DM
 			message.author.createDM().then(channel => {
-				channel.send(help)
+				channel.send("Besoin d'aide sur UR ?\n" + ":small_orange_diamond: $cal", ":small_blue_diamond: Envoie un lien pour programmer une partie" )
 			});
 
 
