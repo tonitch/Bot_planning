@@ -15,11 +15,11 @@ module.exports = class help extends command {
 		  message.delete();
 
 		// zone de texte
-			var help = new Discord.RichEmbed()
-				.setThumbnail(message.guild.iconURL)
-				.setDescription("Besoin d'aide sur UR ?")
-				.addField(":small_orange_diamond: $cal", ":small_blue_diamond: Envoie un lien pour programmer une partie")
-				.setFooter("Bon jeu")
+		//	var help = new Discord.RichEmbed()
+		//		.setThumbnail(message.guild.iconURL)
+		//		.setDescription("Besoin d'aide sur UR ?")
+		//		.addField(":small_orange_diamond: $cal", ":small_blue_diamond: Envoie un lien pour programmer une partie")
+		//		.setFooter("Bon jeu")
 		//fin zone de texte
 
 
