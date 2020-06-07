@@ -414,16 +414,16 @@ module.exports = class infoserver extends command {
 			  message.reply("Veuillez suivre le lien suivant qui va vous être envoyé en MP." );
 
 			// zone de texte
-				var link = new Discord.RichEmbed()
-					.setThumbnail(message.guild.iconURL)
-					.setDescription("Veuillez suivre le lien suivant")
-					.addField(createTokenLink(message.author.tag))
-					.setFooter("Ajout d'une partie")
+			//	var link = new Discord.RichEmbed()
+			//		.setThumbnail(message.guild.iconURL)
+			//		.setDescription("Veuillez suivre le lien suivant")
+			//		.addField(createTokenLink(message.author.tag))
+			//		.setFooter("Ajout d'une partie")
 			//fin zone de texte
 
 			//message perso DM
 				message.author.createDM().then(channel => {
-					channel.send(link)
+					channel.send("Veuillez suivre le lien suivant : " + createTokenLink(message.author.tag))
 				});
 		} catch (e) {
 			console.log(e);
